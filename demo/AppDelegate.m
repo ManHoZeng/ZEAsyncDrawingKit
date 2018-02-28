@@ -32,14 +32,14 @@
     self.window.rootViewController = nav;
     
     YYFPSLabel * fps = [[YYFPSLabel alloc] initWithFrame:CGRectMake(0, 20, 100, 60)];
-    
+
     [fps sizeToFit];
-    
+
     fps.alpha = 1;
     [self.window.rootViewController.view addSubview:fps];
-    
+
     [self.window.rootViewController.view bringSubviewToFront:fps];
-    
+//
     return YES;
 }
 

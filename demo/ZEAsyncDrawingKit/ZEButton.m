@@ -72,7 +72,6 @@
         ((ZEAsyncLayer *)self.layer).displaysAsynchronously = YES;
         self.layer.contentsScale = [UIScreen mainScreen].scale;
         self.contentMode = UIViewContentModeRedraw;
-//        _formLayout = [ZEFormLayout new];
         self.frame = frame;
         
         [self configure];

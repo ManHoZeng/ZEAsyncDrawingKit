@@ -94,6 +94,9 @@
 		1802A79F1FA60ACD0067FC0E /* YYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802A7481FA60ACC0067FC0E /* YYTimer.m */; };
 		1802A7A01FA60ACD0067FC0E /* YYTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802A74A1FA60ACC0067FC0E /* YYTransaction.m */; };
 		1802A7A11FA60ACD0067FC0E /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802A74C1FA60ACC0067FC0E /* YYWeakProxy.m */; };
+		1802D8A62014D8890012B62C /* ZENormalBarrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802D8A52014D8890012B62C /* ZENormalBarrage.m */; };
+		1802D8A92014E15C0012B62C /* ZEBarrageTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802D8A82014E15C0012B62C /* ZEBarrageTextStyle.m */; };
+		1802D8AC2016E9190012B62C /* ZEBarrageManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802D8AB2016E9190012B62C /* ZEBarrageManger.m */; };
 		180F84C11E76E17700722684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F84C01E76E17700722684 /* main.m */; };
 		180F84C41E76E17700722684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F84C31E76E17700722684 /* AppDelegate.m */; };
 		180F84C71E76E17700722684 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180F84C61E76E17700722684 /* ViewController.m */; };
@@ -300,6 +303,12 @@
 		1802A74B1FA60ACC0067FC0E /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		1802A74C1FA60ACC0067FC0E /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		1802A74D1FA60ACC0067FC0E /* YYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKit.h; sourceTree = "<group>"; };
+		1802D8A42014D8890012B62C /* ZENormalBarrage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZENormalBarrage.h; sourceTree = "<group>"; };
+		1802D8A52014D8890012B62C /* ZENormalBarrage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZENormalBarrage.m; sourceTree = "<group>"; };
+		1802D8A72014E15C0012B62C /* ZEBarrageTextStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZEBarrageTextStyle.h; sourceTree = "<group>"; };
+		1802D8A82014E15C0012B62C /* ZEBarrageTextStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEBarrageTextStyle.m; sourceTree = "<group>"; };
+		1802D8AA2016E9190012B62C /* ZEBarrageManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZEBarrageManger.h; sourceTree = "<group>"; };
+		1802D8AB2016E9190012B62C /* ZEBarrageManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEBarrageManger.m; sourceTree = "<group>"; };
 		180F84BC1E76E17700722684 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		180F84C01E76E17700722684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		180F84C21E76E17700722684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -361,6 +370,12 @@
 				1802A6921FA5B4C80067FC0E /* ZEButton.m */,
 				18FA73F61FA822DD008BD068 /* ZEControl.h */,
 				18FA73F71FA822DD008BD068 /* ZEControl.m */,
+				1802D8A42014D8890012B62C /* ZENormalBarrage.h */,
+				1802D8A52014D8890012B62C /* ZENormalBarrage.m */,
+				1802D8A72014E15C0012B62C /* ZEBarrageTextStyle.h */,
+				1802D8A82014E15C0012B62C /* ZEBarrageTextStyle.m */,
+				1802D8AA2016E9190012B62C /* ZEBarrageManger.h */,
+				1802D8AB2016E9190012B62C /* ZEBarrageManger.m */,
 			);
 			path = ZEAsyncDrawingKit;
 			sourceTree = "<group>";
@@ -922,6 +937,7 @@
 				1802A7641FA60ACD0067FC0E /* UIColor+YYAdd.m in Sources */,
 				1802A7891FA60ACD0067FC0E /* YYTextMagnifier.m in Sources */,
 				1802A7811FA60ACD0067FC0E /* YYClassInfo.m in Sources */,
+				1802D8AC2016E9190012B62C /* ZEBarrageManger.m in Sources */,
 				1802A7A01FA60ACD0067FC0E /* YYTransaction.m in Sources */,
 				1802A78E1FA60ACD0067FC0E /* YYTextArchiver.m in Sources */,
 				1802A7781FA60ACD0067FC0E /* YYAnimatedImageView.m in Sources */,
@@ -978,7 +994,9 @@
 				1802A7851FA60ACD0067FC0E /* YYTextInput.m in Sources */,
 				1802A7721FA60ACD0067FC0E /* YYMemoryCache.m in Sources */,
 				1802A77F1FA60ACD0067FC0E /* YYWebImageOperation.m in Sources */,
+				1802D8A92014E15C0012B62C /* ZEBarrageTextStyle.m in Sources */,
 				1802A7961FA60ACD0067FC0E /* YYAsyncLayer.m in Sources */,
+				1802D8A62014D8890012B62C /* ZENormalBarrage.m in Sources */,
 				180F84C11E76E17700722684 /* main.m in Sources */,
 				1802A7921FA60ACD0067FC0E /* YYTextRunDelegate.m in Sources */,
 				1802A7831FA60ACD0067FC0E /* YYTextDebugOption.m in Sources */,
